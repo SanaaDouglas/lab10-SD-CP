@@ -1,3 +1,7 @@
+# https://github.com/SanaaDouglas/lab10-SD-CP.git
+#Partner 1: Sanaa Douglas
+#Partner 2: Chase Prasad
+
 import unittest
 from calculator import mul, div, logarithm, hypotenuse, square_root
 from calculator import *
@@ -18,7 +22,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(5,5), 25)
 
     def test_divide(self): # 3 assertions
-        self.assrterEqual(div(20,5), 4)
+        self.assertEqual(div(20,5), 4)
         self.assertEqual(div(12,3) , 4)
         self.assertEqual(div(10, 2), 5)
     ##########################
@@ -44,7 +48,7 @@ class TestCalculator(unittest.TestCase):
         #     logarithm(0, 5)
         with self.assertRaises(ValueError):
             logarithm(0,5)
-        with self.assrterRaises(ValueError):
+        with self.assertRaises(ValueError):
             logarithm(-3, 2)
 
     def test_hypotenuse(self): # 3 assertions
