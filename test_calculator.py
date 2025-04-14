@@ -1,4 +1,5 @@
-# https://github.com/SanaaDouglas/lab10-SD-CP.git
+
+# https://github.com/SanaaDouglas/lab10-SD-CP
 #Partner 1: Sanaa Douglas
 #Partner 2: Chase Prasad
 
