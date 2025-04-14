@@ -1,4 +1,3 @@
-
 # https://github.com/SanaaDouglas/lab10-SD-CP
 #Partner 1: Sanaa Douglas
 #Partner 2: Chase Prasad
@@ -23,9 +22,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(5,5), 25)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(20,5), 4)
-        self.assertEqual(div(12,3) , 4)
-        self.assertEqual(div(10, 2), 5)
+        self.assertEqual(div(5,20), 4)
+        self.assertEqual(div(3,12) , 4)
+        self.assertEqual(div(2, 10), 5)
     ##########################
 
     # Partner 2
